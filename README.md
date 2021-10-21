@@ -36,12 +36,14 @@ their quality and usability.
 
 ### Installation
 In order to install this project you need to clone the repository and install
-the following:
+the following for the NER:
 ```
 pip install spacy==2.3.7
 pip install spacy-lookups-data==1.0.3
 pip install scikit-learn==0.23.2
 ```
+For the GluonTS part you will have to install both
+[GluonTS](https://ts.gluon.ai/install.html) and [nolitsa](https://github.com/manu-mannattil/nolitsa) (for data surrogation)
 ### Usage
 To use this project you should run main.py with the appropriate flags.
 
