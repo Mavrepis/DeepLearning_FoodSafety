@@ -24,7 +24,7 @@ The original dataset for the NER has the following structure:
 0 | atropine 47 ppb scopolamine 30 ppb organic buckwheat flour france | organic buckwheat flour |
 1 |dead insects live insects glucosamine sulphate china | glucosamine sulphate
 
-While for the Time-series prediction:
+While for the Time-series prediction (both for the GluonTS and RL methods):
 
  Index| # Recalls | Date | product |
 --- | --- | --- | --- |
@@ -44,6 +44,8 @@ pip install scikit-learn==0.23.2
 ```
 For the GluonTS part you will have to install both
 [GluonTS](https://ts.gluon.ai/install.html) and [nolitsa](https://github.com/manu-mannattil/nolitsa) (for data surrogation)
+
+Finally, for the RL part it necessary to have Keras and PyTorch.
 ### Usage
 To use this project you should run main.py with the appropriate flags.
 
